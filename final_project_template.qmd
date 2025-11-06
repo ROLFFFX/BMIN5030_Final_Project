@@ -1,7 +1,7 @@
 ---
-title: "Your Title"
+title: "Early Antibiotic Administration Timing and Outcomes in Sepsis Treatment: A MIMIC-IV Analysis"
 subtitle: "BMIN5030 Final Project"
-author: "FirstName LastName"
+author: "Yuxuan Shi"
 format: html
 editor: visual
 number-sections: true
@@ -14,13 +14,13 @@ Use this template to complete your project throughout the course. Your Final Pro
 
 ## Overview {#sec-overview}
 
-Give a brief a description of your project and its goal(s), what data you are using to complete it, and what two faculty/staff in different fields you have spoken to about your project with a brief summary of what you learned from each person. Include a link to your final project GitHub repository.
+This project primarily investigates the association between early antibiotic administration and patient outcomes among ICU patients diagnosed with sepsis using the MIMIC-IV dataset. The study aims to evaluate whether earlier intervention is associated with improved outcomes which is defined through a range of metrics, such as in-hospital mortality rate, 30-day readmission rate, ventilator-free days, and organ dysfunction progression. The goal is to identify potential clinical implications for optimizing the sepsis management processes. Some of these discrepancies stem from challenges in accurately defining the onset of sepsis, handling the time discretization for data analysis, or confounding factors such as illness severity and treatment bias.
 
 ## Introduction {#sec-introduction}
 
-Describe the problem addressed, its significance, and some background to motivate the problem. This should extend what is in the @sec-overview.
+Sepsis is a leading cause of death in intensive care units (ICUs) and continues to pose major challenges to clinicians due to its complexity. Early antibiotic administration has long been considered a cornerstone of sepsis treatment, based on evidence suggesting that delays in treatment may increase mortality and worsen organ function. However, the optimal timing of antibiotic administration remains controversial, as observational studies have produced mixed results.
 
-Explain why your problem is interdisciplinary, what fields can contribute to its understanding, and incorporate background related to what you learned from meeting with faculty/staff.
+This project is interdisciplinary, combining insights from biomedical informatics, clinical medicine, and data science. From a clinical perspective, the project draws on principles of critical care and infectious disease management to define sepsis onset, select relevant outcomes, and interpret physiological indicators such as acuity scores (e.g. SOFA) trajectories; from a informatics standpoint, it involves working with high-dimensional EHR data and addressing issues such as timestep discretization and alignment, causal inference modeling, and other data science practices for various data processing tasks.
 
 ## Methods {#sec-methods}
 
